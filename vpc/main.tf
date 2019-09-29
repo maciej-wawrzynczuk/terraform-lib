@@ -1,12 +1,7 @@
-variable "region" {}
 variable "project" {}
 
 output "subnet_id" {
   value = aws_subnet.default.id
-}
-
-provider "aws" {
-  region = "${var.region}"
 }
 
 resource "aws_vpc" "default" {

@@ -11,9 +11,5 @@ Creates ssh key pair from current user `.ssh/id_rsa.pub` so you can just do
 
 ## vpc
 Creates VPC with one subnet
-###Variables
+### Variables
 * project
-* region 
-
-### TODO
-* Get rid of provider and region variable
