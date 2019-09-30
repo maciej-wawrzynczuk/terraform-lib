@@ -5,7 +5,7 @@ Some terrafrom modules for AWS I share between my projects.
 Creates ssh key pair from current user `.ssh/id_rsa.pub` so you can just do
 `ssh ubuntu@new_machine_ip`.
 
-###Variables
+### Variables
 
 * project - name of the project. It becomes the key name 
 
@@ -13,3 +13,13 @@ Creates ssh key pair from current user `.ssh/id_rsa.pub` so you can just do
 Creates VPC with one subnet
 ### Variables
 * project
+
+## xenial
+Finds Ubuntu Xenial AMI id
+
+### Outputs
+* id
+
+### TODO:
+* ~~rename key.key_name -> name~~
+* add dns
