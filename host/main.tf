@@ -9,6 +9,10 @@ output "ips" {
   value = aws_instance.host[*].public_ip
 }
 
+output "ips6" {
+  value = "${flatten(aws_instance.host[*].ipv6_addresses)}"
+}
+
 #I need it for triggering provisioning
 output "ids" {
   value = aws_instance.host[*].id

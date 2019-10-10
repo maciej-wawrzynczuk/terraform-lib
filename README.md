@@ -20,6 +20,18 @@ Finds Ubuntu Xenial AMI id
 ### Outputs
 * id
 
-### TODO:
+Creates DNS records
+
+### variables
+* doamin
+* hostname
+* address
+
+### outputs
+* fqdn
+
+## TODO:
 * ~~rename key.key_name -> name~~
 * add dns
+  * support multiple hosts
+  * IPV6
