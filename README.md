@@ -31,7 +31,8 @@ Creates DNS records
 * fqdn
 
 ## TODO:
-* ~~rename key.key_name -> name~~
-* add dns
-  * support multiple hosts
-  * IPV6
+* [ ] provision
+* [ ] Add EIP to host
+
+## Nice to have / ideas
+* ssh-key adds default username to ssh options. We can as well setup non default key.
