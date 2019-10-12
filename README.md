@@ -20,6 +20,7 @@ Finds Ubuntu Xenial AMI id
 ### Outputs
 * id
 
+## dns
 Creates DNS records
 
 ### variables
@@ -31,8 +32,10 @@ Creates DNS records
 * fqdn
 
 ## TODO:
-* [ ] provision
+* [x] add trigger for provisioner
+* [ ] create release branch
+* [ ] diagnose ipv6
 * [ ] Add EIP to host
 
 ## Nice to have / ideas
-* ssh-key adds default username to ssh options. We can as well setup non default key.
+* [ ] ssh-key adds default username to ssh options. We can as well setup non default key.
